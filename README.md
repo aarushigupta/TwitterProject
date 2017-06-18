@@ -24,11 +24,15 @@ We are using `jupyter notebooks` for this project.
      ```sh
     $ pip install -r requirements.txt
     ```
-6. To open the jupyter notebooks run the following command.
+6.  Execute the following command and copy the twitter api-keys to keys.py file
+     ```sh
+    $ cp keys.py.sample keys.py
+    ``` 
+7. To open the jupyter notebooks run the following command.
     ```sh
     $ jupyter notebooks
     ```
-7. If you are done working in the virtual environment for the moment, you can deactivate it:
+8. If you are done working in the virtual environment for the moment, you can deactivate it:
     ```sh
     $ deactivate
     ```
